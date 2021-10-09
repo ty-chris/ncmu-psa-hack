@@ -7,7 +7,6 @@ import Button from '@mui/material/Button';
 import logo from '../PSAI_Logo_Padded.png';
 
 export default function ButtonAppBar() {
-    /* const classes = styles(); */
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
