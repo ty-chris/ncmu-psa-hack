@@ -4,25 +4,19 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import logo from '../PSAI_Logo_Padded.png'
+import logo from '../PSAI_Logo_Padded.png';
 
 export default function ButtonAppBar() {
+    /* const classes = styles(); */
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
                 <Toolbar>
-                <img src={logo} className={classes.logo}/>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
-                    >
-                        <MenuIcon />
-                    </IconButton>
+                    <img
+                        src={logo}
+                        alt=""
+                        style={{ height: '40px', width: '40px' }}
+                    />
                     <Typography
                         variant="h6"
                         component="div"
@@ -30,7 +24,7 @@ export default function ButtonAppBar() {
                     >
                         PSA Hackathon Problem Statement
                     </Typography>
-                    <Button color="inherit">Login</Button>
+                    <Button color="inherit">Hello</Button>
                 </Toolbar>
             </AppBar>
         </Box>
