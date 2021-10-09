@@ -12,9 +12,9 @@ export default function LandingPage() {
                 src="https://docs.google.com/forms/d/e/1FAIpQLSc1cOndSu7q1fwPTDH_dlm7fcBHtq5HfAigfNY826Z-NFT2BA/viewform?embedded=true"
                 width="640"
                 height="1000"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0"
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
             >
                 Loading…
             </iframe>
